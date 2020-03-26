@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+    <?php include ("victor.php"); ?>
+        <form action="victor.php" method="POST">
+            <input type="text" name="first_name" placeholder="Enter Your First Name" />
+            <input type="text" name="last_name" placeholder="Enter Your Last Name" />
+            <input type="email" name="email" placeholder="Enter Your Email" required />
+            <input type="text" name="slack_name" placeholder="Enter Your Slack username" required />
+
+
+            <button type="submit" name="submit">Send Message</button>
+
+        </form>
+    </body>
+</html>
